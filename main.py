@@ -10,7 +10,7 @@ def main():
 
     game = Ayoayo()
 
-    # Setup: Get player names
+    # Setup
     p1_name = input("Player 1, enter your name: ").strip()
     p2_name = input("Player 2, enter your name: ").strip()
 

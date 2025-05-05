@@ -2,7 +2,7 @@ from player import Player
 
 class Ayoayo:
     def __init__(self):
-        # Set up the board: each player starts with 4 seeds per pit
+        # Board set up:
         self._board = [[4] * 6, 0, [4] * 6, 0]  # [P1 pits, P1 store, P2 pits, P2 store]
         self._players = []
         self._game_ended = False

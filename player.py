@@ -6,7 +6,7 @@ class Player:
             raise ValueError("Player number must be 1 or 2")
 
         self.name = name.strip()
-        self.player_num = player_num  # Player 1 or Player 2
+        self.player_num = player_num 
 
     def __repr__(self):
         return f"<Player {self.player_num}: {self.name}>"
