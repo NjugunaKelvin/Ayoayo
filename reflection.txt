@@ -1,0 +1,26 @@
+Reflection – Ayoayo Game Project
+
+Building the Ayoayo game pushed me to think differently about board logic and turn-based mechanics. 
+Unlike most programming exercises, this one required translating a real-world game — with subtle rules 
+and spatial patterns — into clean, bug-free code. That was a new approach for me for me. Although i have worked on the 
+snake game, i have never thought of something like this.
+
+The biggest challenge was implementing the seed-sowing mechanic in a way that felt natural and accurate. 
+I had to mentally map the circular motion of seeds onto a linear data structure, which took a few failed attempts 
+before it clicked. Capturing was another point of complexity — not because it was hard to understand, but because 
+it was easy to get wrong in code. One wrong index and the whole mechanic broke.
+
+I leaned heavily on visual debugging. I made a board printout early on, and that became my go-to for testing logic 
+step-by-step. Writing small helper methods also helped isolate and fix problems faster.
+
+A few things I learned:
+- Game mechanics force you to think in terms of state — and keeping state predictable is half the battle.
+- Good debugging output is worth the time.
+- Writing “just enough” logic before testing can prevent large rewrites later.
+
+Looking back, I’d approach things slightly differently: start by designing with edge cases in mind, and test each 
+rule in isolation before integrating it. That would have saved hours of back-and-forth.
+
+This wasn’t just another coding task — it was a lesson in simulating real-world behavior with precision. 
+The end result is something I understand, can explain, and could rebuild from scratch if needed. 
+That’s the part I’m proud of.
